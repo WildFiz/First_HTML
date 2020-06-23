@@ -8,44 +8,46 @@
     <link rel="shortcut icon" href="https://atom.io/favicon.ico"/>
     <style type="text/css">
    .mainmenu {
-    width: 200px;
-    background: #156761;
-    padding: 20px;
-    padding-right: 600px;
+    width: 500px;
+    background: #ffffff;
+    padding: 15px;
+    padding-right: 500px;
     border: solid 1px black;
-    float: left;
+    float: none;
    }
    .block2 {
     width: 200px;
     background: #fc0;
-    padding: 20px;
-    padding-right: 180px;
+    padding: 5px;
+    padding-right: 0px;
     border: solid 1px black;
     float: left;
     position: relative;
     top: 0px;
-    left: 5px;
+    left: 0px;
+   }
+   h1 {
+     font-size: 200%;
+         font-family: Verdana, Arial, Helvetica, sans-serif;
+         color: #94fa;
    }
   </style>
   </head>
   <body>
-    <script type="text/javascript" async>
-
-    </script>
   <div class="mainmenu">
-    <h1 id="h1">Заголовок H1</h1>
-    <h2>ЗАголовок H2</h2>
-    <p id="id456"><b>Текст в нутри</b> <br> <em> тега p</em></p>
-    <a href="https://fonts.google.com" target="_blank">Google skript</a>
+    <h1 id="h1" wi>Заголовок H1</h1>
+    <h2>Заголовок H2</h2>
+    <p><b>Текст в нутри</b><em> тега p</em></p>
+    <a href="https://fonts.google.com" target="_blank" title="Google text">Google skript</a>
   <br>
     <a href="#id456">Якорь на параграф</a>
   <br>
-    <a href="#h1">Якорь на заголовок</a>
+    <a href="#bartjpg">Якорь на заголовок</a>
   <hr>
     <ul>
       <li>First</li>
       <li>Second</li>
-      <li> <a href="https:\\ya.ru">Yandex</a> - сайт</li>
+      <li> <a href="https:\\ya.ru" title="Yandex">Yandex</a> - сайт</li>
     </ul>
   <hr>
     <table border="1">
@@ -73,8 +75,8 @@
     </table>
   </div>
 
-  <div class="block2">
-
+  <div class="block2" title="div2">
+    <img  title="bart" id="bartjpg" src="C:\Users\User\Pictures\bart.jpg" width="100">
   </div>
 
   <form class="" action="index.html" method="post">
