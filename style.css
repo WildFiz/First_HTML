@@ -1,0 +1,56 @@
+body{
+	/*background-image: url(images/fal.jpg);'*/
+}
+
+a{
+	color: green;
+	font-size: 16px;
+}
+
+.massage{
+	color: #747474;
+	background-color: #e4e4e4;
+	border: 1px solid #323232;
+	font-size: 20px;
+	margin-bottom: 10px; /*Внешний отсуп*/
+	padding-left: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.success {
+	background-color: #19a15f;
+	color: #ffffff;
+}
+
+.fail{
+	background-color: #FF0000;
+	color: #ffffff;
+}
+
+.info{
+	background-color: #4b8bf5;
+	color: #FFFFFF;
+}
+
+.massage:hover{
+	border: 1px solid #323232;
+	padding-left: 25px;
+}
+
+#css3{
+	background-color: #EDEDED;
+	color: #000000;
+	border: 3px solid #808080;
+	border-radius: 10px;
+	maring: 5px;
+	padding-left: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	opacity: 0.5; /*Прозрачность*/
+	box-shadow: ;/*Тень*/
+}
+
+#css3:hover{
+	opacity: 1; 
+}
