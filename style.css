@@ -1,4 +1,3 @@
-@media screen {
 body{
 	/*background-image: url(images/fal.jpg);'*/
 }
@@ -69,36 +68,4 @@ a{
 	transform: rotate(360000deg);
 	
 	
-}
-}
-@media handheld {
-#css3{
-	/**/
-	
-	background-color: #EDEDED;
-	color: #000000; 
-	font-size: 30px;
-	font-weight: 400px;
-	border: 3px solid #808080;
-	border-radius: 10px;
-	maring: 5px;
-	padding-left: 15px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	opacity: 1; /*Прозрачность*/
-	box-shadow: 3px 3px 10px #000000;/*Тень*/
-	width: 50%; 
-	margin-left:;
-	display: block; /*Видимость элемента*/
-	text-align: left;
-
-}
-
-#css3:hover{
-	transition: 25s all;
-	background-color: red;
-	transform: rotate(360000deg);
-	
-	
-}
 }
